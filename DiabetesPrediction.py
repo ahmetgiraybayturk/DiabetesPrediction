@@ -86,7 +86,11 @@ pred = model.predict(X_train)
 pred  = [1 if y>=0.5 else 0 for y in pred] #Threshold
 print('Accuracy: ', accuracy_score(y_train,pred))
 
-
+#Evaluating the model on the testing data
+from sklearn.metrics import accuracy_score
+pred = model.predict(X_test)
+pred  = [1 if y>=0.5 else 0 for y in pred] #Threshold
+print('Accuracy of the testing data: ', accuracy_score(y_test,pred))
 
 
 
