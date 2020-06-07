@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
 
 #Load the dataset
-file = pd.read_csv('C:\\Users\\tonguc\\Desktop\\stats.csv')
+file = pd.read_csv('stats.csv')
 #First 20 rows of data
 file.head(20)
 
