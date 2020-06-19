@@ -1,7 +1,7 @@
 The objective of the dataset (stats.csv) is to diagnostically predict whether or not a patient has diabetes,
 based on certain diagnostic measurements included in the dataset.
 
---> Batch/Epoch Progress
+--> Epoch Progress
 
 ![85d9076bcafffd59db3e9281efafa5ee](https://user-images.githubusercontent.com/66560574/83974088-56807580-a8f3-11ea-9386-72d6de1c75fb.gif)
 
